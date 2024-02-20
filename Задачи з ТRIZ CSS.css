@@ -1,0 +1,47 @@
+body 
+{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header
+ {
+    background-color: purple; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    text-align: center; /* Выравнивание текста */
+    padding: 20px 0; /* Отступы */
+    
+    /* Добавленные стили */
+    font-family: sans-serif; /* Шрифт */
+    font-weight: bold; /* Жирный шрифт */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Тень текста */
+    
+    /* Изображение */
+    /*background-image: url("images/logo.png"); /* URL-адрес изображения */
+    background-repeat: no-repeat; /* Повторение изображения */
+    background-position: center; /* Позиционирование изображения */
+    background-size: 100px; /* Размер изображения */
+  }
+main 
+{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+ul 
+{
+    list-style-type: none;
+    padding: 0;
+}
+
+li 
+{
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
